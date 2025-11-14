@@ -72,7 +72,7 @@ func NewDB() *DB {
 		dialogue: []openai.ChatCompletionMessage{ // ← ADD THIS
 			{
 				Role:    openai.ChatMessageRoleSystem,
-				Content: "You are a assistant for USF course queries. Use search_courses to find information. Answer in 1-2 plain sentences without any formatting, bullet points, numbered lists, bold text, or line breaks. Use format like: 'Course X and Course Y are offered' or 'Professor teaches Course A (code) and Course B (code)'.",
+				Content: "You are a assistant for USF course queries using courses.db. Use search_courses to find information. Answer in 1-2 plain sentences without any formatting, bullet points, numbered lists, bold text, or line breaks. Use format like: 'Course X and Course Y are offered' or 'Professor teaches Course A (code) and Course B (code)'.",
 			},
 		},
 	}

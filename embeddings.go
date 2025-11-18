@@ -1,3 +1,11 @@
+// embeddings.go
+// This file handles vector embeddings and course data loading.
+// Contains:
+// - CreateBlob(): Converts text to embeddings using OpenAI API
+// - InsertBlob(): Inserts course data and embeddings into SQLite
+// - Query(): Performs search on the vector database
+// - load_csv(): Reads courses.csv and populates the database with embeddings
+
 package main
 
 import (

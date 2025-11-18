@@ -1,3 +1,11 @@
+// chat.go
+// This file handles LLM interactions and tool calling for course queries.
+// Contains:
+// - Chatbot(): Simple LLM completion for judging test results
+// - createTools(): Defines the search_courses tool using JSON schema
+// - executeTool(): Executes tool calls by querying the vector database
+// - Chat(): Main function that manages dialogue, tool calling, and responses
+
 package main
 
 import (

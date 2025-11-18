@@ -1,3 +1,10 @@
+// db.go
+// This file takes care of database setup.
+// Contains:
+// - Course struct: Represents a course record - per row
+// - DB struct: Holds database connection, OpenAI client, maps, and dialogue history (to handle "What is his email?")
+// - NewDB(): Initializes database, creates vector table, sets up dialogue
+
 package main
 
 import (

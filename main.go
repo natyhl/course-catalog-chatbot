@@ -1,8 +1,3 @@
-// main.go
-
-// Sets up database, loads course data if needed, and runs an interactive
-// loop where users can ask questions about USF courses.
-
 package main
 
 import (

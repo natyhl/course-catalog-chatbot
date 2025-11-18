@@ -1,15 +1,3 @@
-// project06_test.go
-// Test space for Project 06 - validates agentic behavior and context handling.
-// Contains:
-// - TestMain(): Sets up test database
-// - judgeSimilar(): Uses LLM to score answer similarity
-// - TestProject06(): Main test with multiple test cases:
-//     TestCS272
-//     TestEmail
-//     TestPhilGreg
-//     TestHR148
-//     TestKHall
-
 package main
 
 import (

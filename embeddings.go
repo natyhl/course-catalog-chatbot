@@ -68,7 +68,7 @@ func (db *DB) Query(p string) []string {
 
 	// Find courses with embeddings similar to query embedding
 	rows, err := db.db.Query(`
-		SELECT id, plain, distance FROM course WHERE embedding MATCH ? ORDER BY distance LIMIT 3;
+		SELECT id, plain, distance FROM course WHERE embedding MATCH ? ORDER BY distance LIMIT 5;
 	`, b)
 	if err != nil {
 		log.Fatal(err)

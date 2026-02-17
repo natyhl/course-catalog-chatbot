@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# env / secrets
+.env
+env/
+
+# databases
+*.db
+*.db-journal
+*.sqlite
+
+# python junk (if you used python anywhere)
+venv/
+__pycache__/
+
+# logs
+*.log
+
